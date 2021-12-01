@@ -1,12 +1,9 @@
 class Role < ActiveRecord::Base
     has_many :auditions
 
-    def auditions
-
-    end 
 
     def actors
-
+        binding.pry
     end
 
     def locations
